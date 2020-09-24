@@ -6,8 +6,8 @@ namespace Nummertest
     {
         static void Main(string[] args)
         {
-            
-            
+
+
             while (true)
             {
                 string pinCodeSelection = Console.ReadLine();
@@ -18,11 +18,11 @@ namespace Nummertest
                 {
                     Console.WriteLine("Please enter a valid numerical 4 digit value!");
                 }
-                else {Console.WriteLine("Your PIN is" + "\n" + pinCodeSelection + "\n" + n);}
+                else { Console.WriteLine("Your PIN is" + "\n" + pinCodeSelection + "\n" + n); }
             }
 
 
-            
+            // CTRL + K + D = Retter opp
         }
     }
 }
